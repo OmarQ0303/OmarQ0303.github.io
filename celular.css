@@ -192,7 +192,8 @@ footer a {
   }
 
   .section--catalogos-imagenes ul {
-    margin: 0 0 20px 20px;
+    margin: 0;
+    margin-right: 50px;
   }
 
   footer a {
@@ -201,7 +202,7 @@ footer a {
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1440px) {
   .section--catalogos-contenedor {
     overflow-x: hidden;
     overscroll-behavior-x: none;
